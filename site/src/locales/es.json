@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "features": "Funciones",
+    "formats": "Formatos",
+    "screenshots": "Capturas",
+    "download": "Descargar",
+    "openSource": "Código Abierto",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "SaiPair",
+    "subtitle": "Software gratuito de gestión de torneos",
+    "description": "Aplicación de escritorio de código abierto y offline para organizar torneos. Suizo, Round Robin, Eliminación y más.",
+    "download": "Descargar ahora",
+    "viewOnGithub": "Ver en GitHub"
+  },
+  "features": {
+    "title": "Funciones",
+    "subtitle": "Todo lo que necesitas para organizar un torneo",
+    "f1_title": "Múltiples formatos",
+    "f1_desc": "Suizo, Round Robin, Doble Round Robin, Eliminación simple y doble.",
+    "f2_title": "Emparejamiento automático",
+    "f2_desc": "El motor inteligente genera emparejamientos al instante.",
+    "f3_title": "Clasificaciones en vivo",
+    "f3_desc": "Clasificaciones en tiempo real con reglas de desempate configurables.",
+    "f4_title": "Sin conexión",
+    "f4_desc": "No se necesita internet. Datos almacenados localmente.",
+    "f5_title": "Importar y exportar",
+    "f5_desc": "Importa jugadores desde Excel/CSV. Exporta clasificaciones y emparejamientos.",
+    "f6_title": "Listo para imprimir",
+    "f6_desc": "Imprime listas, emparejamientos, clasificaciones y más.",
+    "f7_title": "Multiidioma",
+    "f7_desc": "Disponible en 10 idiomas.",
+    "f8_title": "Gratuito y de código abierto",
+    "f8_desc": "Licencia MIT, siempre gratuito."
+  },
+  "formats": {
+    "title": "Formatos de torneo",
+    "subtitle": "Elige el formato adecuado",
+    "swiss_title": "Sistema suizo",
+    "swiss_desc": "Empareja jugadores con puntuaciones similares cada ronda.",
+    "roundRobin_title": "Round Robin",
+    "roundRobin_desc": "Todos juegan contra todos.",
+    "elimination_title": "Eliminación simple",
+    "elimination_desc": "Los perdedores son eliminados cada ronda.",
+    "doubleElim_title": "Doble eliminación",
+    "doubleElim_desc": "Los jugadores tienen una segunda oportunidad."
+  },
+  "screenshots": {
+    "title": "Capturas",
+    "subtitle": "Mira SaiPair en acción",
+    "placeholder": "Capturas próximamente — ¡descarga y pruébalo!"
+  },
+  "download": {
+    "title": "Descargar",
+    "subtitle": "Disponible para Windows, macOS y Linux",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "getLatest": "Descargar última versión",
+    "allReleases": "Ver todas las versiones"
+  },
+  "openSource": {
+    "title": "Código abierto",
+    "subtitle": "Construido abiertamente, licencia MIT",
+    "description": "SaiPair es software libre y de código abierto. Todos son bienvenidos a contribuir.",
+    "github": "Repositorio GitHub",
+    "issues": "Reportar problemas",
+    "discussions": "Unirse a discusiones"
+  },
+  "footer": {
+    "copyright": "© {{year}} SaiPair. Licencia MIT.",
+    "madeWith": "Hecho con ❤ para organizadores de torneos en todo el mundo."
+  },
+  "language": {
+    "en": "English",
+    "zh-CN": "中文",
+    "es": "Español",
+    "fr": "Français",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "bn": "বাংলা"
+  }
+}

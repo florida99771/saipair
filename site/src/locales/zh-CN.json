@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "features": "功能",
+    "formats": "赛制",
+    "screenshots": "截图",
+    "download": "下载",
+    "openSource": "开源",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "SaiPair 赛排",
+    "subtitle": "免费赛事管理软件",
+    "description": "开源、离线优先的桌面应用，轻松组织各类比赛。瑞士制、循环赛、淘汰赛等——一站搞定。",
+    "download": "立即下载",
+    "viewOnGithub": "在 GitHub 查看"
+  },
+  "features": {
+    "title": "功能特色",
+    "subtitle": "办赛所需，一应俱全",
+    "f1_title": "多种赛制",
+    "f1_desc": "瑞士制、单循环、双循环、单败淘汰、双败淘汰——为你的赛事选择最合适的赛制。",
+    "f2_title": "自动配对",
+    "f2_desc": "智能配对引擎处理一切复杂逻辑，一键生成对阵表。",
+    "f3_title": "实时排名",
+    "f3_desc": "排名实时更新，支持可配置的小分规则——布赫霍兹、索伯延等。",
+    "f4_title": "离线优先",
+    "f4_desc": "无需网络。所有数据本地存储，随时备份和恢复 .saipair 文件。",
+    "f5_title": "导入导出",
+    "f5_desc": "从 Excel/CSV 导入选手。导出排名、交叉表和对阵。支持 TRF 格式。",
+    "f6_title": "打印就绪",
+    "f6_desc": "打印花名册、对阵表、排名、交叉表和选手卡——格式规范，即印即用。",
+    "f7_title": "多语言",
+    "f7_desc": "支持 10 种语言——英语、中文、西班牙语、法语、葡萄牙语、俄语、日语、阿拉伯语、印地语、孟加拉语。",
+    "f8_title": "免费开源",
+    "f8_desc": "MIT 许可证，永远免费。查看源码、参与贡献或自由分叉。"
+  },
+  "formats": {
+    "title": "赛制",
+    "subtitle": "为你的赛事选择合适的赛制",
+    "swiss_title": "瑞士制",
+    "swiss_desc": "每轮将积分相近的选手配对，适合参赛人数多但轮次有限的赛事。",
+    "roundRobin_title": "循环赛",
+    "roundRobin_desc": "每位选手与其他所有选手各赛一场，适合小型赛事追求公平。",
+    "elimination_title": "单败淘汰",
+    "elimination_desc": "每轮败者淘汰，出结果快，观赏性强。",
+    "doubleElim_title": "双败淘汰",
+    "doubleElim_desc": "设胜者组与败者组，选手有第二次机会。"
+  },
+  "screenshots": {
+    "title": "截图",
+    "subtitle": "SaiPair 实际效果",
+    "placeholder": "截图即将上线——先下载体验吧！"
+  },
+  "download": {
+    "title": "下载",
+    "subtitle": "支持 Windows、macOS 和 Linux",
+    "windows": "Windows",
+    "macos": "macOS",
+    "macosArm": "macOS (Apple Silicon)",
+    "linux": "Linux",
+    "getLatest": "下载最新版本",
+    "allReleases": "查看所有版本",
+    "downloadFor": "下载 {{platform}} 版",
+    "version": "{{version}}",
+    "allPlatforms": "其他平台和版本"
+  },
+  "openSource": {
+    "title": "开源",
+    "subtitle": "公开构建，MIT 许可",
+    "description": "SaiPair 是免费开源软件。查看源码、报告问题、建议功能或参与贡献——欢迎所有人。",
+    "github": "GitHub 仓库",
+    "issues": "报告问题",
+    "discussions": "参与讨论"
+  },
+  "footer": {
+    "copyright": "© {{year}} SaiPair. MIT 许可证。",
+    "madeWith": "为全球赛事组织者用心打造。"
+  },
+  "language": {
+    "en": "English",
+    "zh-CN": "中文",
+    "es": "Español",
+    "fr": "Français",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "bn": "বাংলা"
+  }
+}

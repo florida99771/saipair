@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "features": "Features",
+    "formats": "Formats",
+    "screenshots": "Screenshots",
+    "download": "Download",
+    "openSource": "Open Source",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "SaiPair",
+    "subtitle": "Free Tournament Management Software",
+    "description": "Open-source, offline-first desktop app for organizing tournaments. Swiss, Round Robin, Elimination and more — all in one place.",
+    "download": "Download Now",
+    "viewOnGithub": "View on GitHub"
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Everything you need to run a tournament",
+    "f1_title": "Multiple Formats",
+    "f1_desc": "Swiss, Round Robin, Double Round Robin, Single & Double Elimination — choose the best format for your event.",
+    "f2_title": "Auto Pairing",
+    "f2_desc": "Smart pairing engine handles all the complexity. Just click a button and pairings are generated instantly.",
+    "f3_title": "Live Rankings",
+    "f3_desc": "Rankings update in real time with configurable tiebreak rules — Buchholz, Sonneborn-Berger, and more.",
+    "f4_title": "Offline First",
+    "f4_desc": "No internet needed. All data stored locally. Back up and restore anytime with .saipair files.",
+    "f5_title": "Import & Export",
+    "f5_desc": "Import players from Excel/CSV. Export rankings, cross tables, and pairings. TRF format supported.",
+    "f6_title": "Print Ready",
+    "f6_desc": "Print rosters, pairings, rankings, cross tables, and player cards — formatted and ready to post.",
+    "f7_title": "Multi-Language",
+    "f7_desc": "Available in 10 languages — English, Chinese, Spanish, French, Portuguese, Russian, Japanese, Arabic, Hindi, Bengali.",
+    "f8_title": "Free & Open Source",
+    "f8_desc": "MIT licensed, forever free. Inspect the code, contribute, or fork it — it's yours."
+  },
+  "formats": {
+    "title": "Tournament Formats",
+    "subtitle": "Pick the right format for your event",
+    "swiss_title": "Swiss System",
+    "swiss_desc": "Each round pairs players with similar scores. Best for large groups with limited rounds.",
+    "roundRobin_title": "Round Robin",
+    "roundRobin_desc": "Every player plays every other player. Best for small groups where fairness is a priority.",
+    "elimination_title": "Single Elimination",
+    "elimination_desc": "Losers are eliminated each round. Quick results with high spectator appeal.",
+    "doubleElim_title": "Double Elimination",
+    "doubleElim_desc": "Winners and losers brackets. Players get a second chance before being eliminated."
+  },
+  "screenshots": {
+    "title": "Screenshots",
+    "subtitle": "See SaiPair in action",
+    "placeholder": "Screenshots coming soon — download and try it yourself!"
+  },
+  "download": {
+    "title": "Download",
+    "subtitle": "Available for Windows, macOS, and Linux",
+    "windows": "Windows",
+    "macos": "macOS",
+    "macosArm": "macOS (Apple Silicon)",
+    "linux": "Linux",
+    "getLatest": "Download Latest Release",
+    "allReleases": "View All Releases",
+    "downloadFor": "Download for {{platform}}",
+    "version": "{{version}}",
+    "allPlatforms": "Other platforms & versions"
+  },
+  "openSource": {
+    "title": "Open Source",
+    "subtitle": "Built in the open, MIT licensed",
+    "description": "SaiPair is free and open-source software. Inspect the code, report bugs, suggest features, or contribute — everyone is welcome.",
+    "github": "GitHub Repository",
+    "issues": "Report Issues",
+    "discussions": "Join Discussions"
+  },
+  "footer": {
+    "copyright": "© {{year}} SaiPair. MIT License.",
+    "madeWith": "Made with ❤ for tournament organizers worldwide."
+  },
+  "language": {
+    "en": "English",
+    "zh-CN": "中文",
+    "es": "Español",
+    "fr": "Français",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "bn": "বাংলা"
+  }
+}

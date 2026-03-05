@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "features": "機能",
+    "formats": "形式",
+    "screenshots": "スクリーンショット",
+    "download": "ダウンロード",
+    "openSource": "オープンソース",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "SaiPair",
+    "subtitle": "無料トーナメント管理ソフト",
+    "description": "オープンソース、オフライン対応のデスクトップアプリ。スイス式、ラウンドロビン、トーナメント方式など。",
+    "download": "今すぐダウンロード",
+    "viewOnGithub": "GitHubで見る"
+  },
+  "features": {
+    "title": "機能",
+    "subtitle": "大会運営に必要なすべて",
+    "f1_title": "複数の形式",
+    "f1_desc": "スイス式、ラウンドロビン、ダブルラウンドロビン、シングル＆ダブルエリミネーション。",
+    "f2_title": "自動ペアリング",
+    "f2_desc": "スマートエンジンが即座にペアリングを生成。",
+    "f3_title": "リアルタイム順位",
+    "f3_desc": "設定可能なタイブレークルールでリアルタイム更新。",
+    "f4_title": "オフライン対応",
+    "f4_desc": "インターネット不要。データはローカルに保存。",
+    "f5_title": "インポート＆エクスポート",
+    "f5_desc": "Excel/CSVから選手をインポート。順位や対戦表をエクスポート。",
+    "f6_title": "印刷対応",
+    "f6_desc": "名簿、対戦表、順位表などを印刷。",
+    "f7_title": "多言語対応",
+    "f7_desc": "10言語に対応。",
+    "f8_title": "無料＆オープンソース",
+    "f8_desc": "MITライセンス、永久無料。"
+  },
+  "formats": {
+    "title": "大会形式",
+    "subtitle": "イベントに最適な形式を選択",
+    "swiss_title": "スイス式",
+    "swiss_desc": "各ラウンドで同程度のスコアの選手をペアリング。",
+    "roundRobin_title": "ラウンドロビン",
+    "roundRobin_desc": "全員が全員と対戦。",
+    "elimination_title": "シングルエリミネーション",
+    "elimination_desc": "各ラウンドで敗者が脱落。",
+    "doubleElim_title": "ダブルエリミネーション",
+    "doubleElim_desc": "選手にセカンドチャンスあり。"
+  },
+  "screenshots": {
+    "title": "スクリーンショット",
+    "subtitle": "SaiPairの動作をご覧ください",
+    "placeholder": "スクリーンショットは近日公開 — ダウンロードしてお試しください！"
+  },
+  "download": {
+    "title": "ダウンロード",
+    "subtitle": "Windows、macOS、Linux対応",
+    "windows": "Windows",
+    "macos": "macOS",
+    "linux": "Linux",
+    "getLatest": "最新版をダウンロード",
+    "allReleases": "すべてのリリースを見る"
+  },
+  "openSource": {
+    "title": "オープンソース",
+    "subtitle": "オープンに開発、MITライセンス",
+    "description": "SaiPairは無料のオープンソースソフトウェアです。どなたでも歓迎します。",
+    "github": "GitHubリポジトリ",
+    "issues": "問題を報告",
+    "discussions": "ディスカッションに参加"
+  },
+  "footer": {
+    "copyright": "© {{year}} SaiPair. MITライセンス。",
+    "madeWith": "世界中の大会主催者のために❤を込めて。"
+  },
+  "language": {
+    "en": "English",
+    "zh-CN": "中文",
+    "es": "Español",
+    "fr": "Français",
+    "pt": "Português",
+    "ru": "Русский",
+    "ja": "日本語",
+    "ar": "العربية",
+    "hi": "हिन्दी",
+    "bn": "বাংলা"
+  }
+}
