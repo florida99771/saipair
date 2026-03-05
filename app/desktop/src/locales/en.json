@@ -1,0 +1,429 @@
+{
+  "app": {
+    "name": "SaiPair"
+  },
+  "home": {
+    "welcome": "Welcome to SaiPair",
+    "slogan": "Simple setup, easy tournament",
+    "createTournament": "Create New Tournament",
+    "restoreBackup": "Restore from Backup",
+    "recentTournaments": "RECENT TOURNAMENTS",
+    "players": "{{count}} players",
+    "roundInfo": "Round {{current}}",
+    "final": "Final",
+    "statusNotStarted": "Not Started",
+    "statusInProgress": "In Progress",
+    "statusCompleted": "Completed",
+    "viewAll": "View All Tournaments"
+  },
+  "tournaments": {
+    "title": "All Tournaments",
+    "search": "Search tournaments...",
+    "filterAll": "All",
+    "sortByDate": "By Date",
+    "sortByName": "By Name",
+    "noResults": "No tournaments found",
+    "total": "{{count}} tournaments"
+  },
+  "common": {
+    "settings": "Settings",
+    "help": "Help",
+    "lightMode": "Light",
+    "darkMode": "Dark",
+    "cancel": "Cancel",
+    "create": "Create Tournament",
+    "save": "Save",
+    "delete": "Delete"
+  },
+  "deleteDialog": {
+    "title": "Delete Tournament",
+    "message": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+    "confirm": "Delete"
+  },
+  "resetDialog": {
+    "title": "Reset Tournament",
+    "message": "Are you sure you want to reset \"{{name}}\"? All rounds, pairings and results will be cleared. Players and settings will be kept. Format lock will be released.",
+    "confirm": "Reset"
+  },
+  "createDialog": {
+    "title": "Create New Tournament",
+    "subtitle": "Just enter a name to get started. All other settings can be changed later.",
+    "nameLabel": "Tournament Name",
+    "namePlaceholder": "e.g. 2026 Spring Chess Open"
+  },
+  "format": {
+    "swiss": "Swiss",
+    "round_robin": "Round Robin",
+    "double_round_robin": "Double Round Robin",
+    "elimination": "Single Elimination",
+    "double_elimination": "Double Elimination"
+  },
+  "tournament": {
+    "saving": "Saving...",
+    "saved": "Saved",
+    "backToList": "Tournaments",
+    "backupTournament": "Backup",
+    "roundProgress": "Round {{current}} / {{total}}",
+    "playersCount": "{{count}} players",
+    "currentRoundInfo": "{{count}} rounds completed",
+    "nav": {
+      "settings": "Settings",
+      "players": "Players",
+      "rounds": "Rounds",
+      "rankings": "Rankings",
+      "export": "Export"
+    },
+    "field": {
+      "name": "Name",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "venue": "Venue",
+      "organizer": "Organizer",
+      "chiefReferee": "Chief Referee",
+      "format": "Format"
+    },
+    "players": {
+      "title": "Players",
+      "count": "{{count}} players",
+      "add": "Add Player",
+      "empty": "No players yet",
+      "emptyHint": "Click the button above to add the first player",
+      "col": {
+        "seed": "#",
+        "name": "Name",
+        "gender": "Gender",
+        "birthDate": "Birth Date",
+        "title": "Title",
+        "rating": "Rating",
+        "organization": "Organization",
+        "phone": "Phone",
+        "notes": "Notes",
+        "status": "Status"
+      },
+      "gender": {
+        "male": "Male",
+        "female": "Female"
+      },
+      "status": {
+        "active": "Active",
+        "withdrawn": "Withdrawn"
+      },
+      "namePlaceholder": "Required",
+      "titlePlaceholder": "e.g. GM, 5-dan",
+      "ratingPlaceholder": "Optional, default 0",
+      "orgPlaceholder": "e.g. City Chess Club",
+      "phonePlaceholder": "e.g. 13800138000",
+      "notesPlaceholder": "Optional",
+      "registeredAt": "Registered: ",
+      "confirmAdd": "Add",
+      "edit": "Edit Player",
+      "withdraw": "Withdraw",
+      "withdrawMsg": "Mark \"{{name}}\" as withdrawn?",
+      "restore": "Restore",
+      "restoreMsg": "Restore \"{{name}}\" to active status?",
+      "restoreSuccess": "Player restored",
+      "deleteTitle": "Delete Player",
+      "deleteMsg": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+      "import": "Import",
+      "importTitle": "Import Players",
+      "importHint": "Found {{count}} rows. Please map the fields below.",
+      "importColSystem": "Field",
+      "importColExcel": "Excel Column",
+      "importColSample": "Sample",
+      "importSkip": "Skip",
+      "importConfirm": "Import {{count}} players",
+      "importSuccess": "Successfully imported {{count}} players",
+      "importFailed": "Import failed, please check file format",
+      "importEmpty": "No data found in file",
+      "importNoName": "Please select a column for the Name field",
+      "addSuccess": "Player added",
+      "editSuccess": "Player updated",
+      "deleteSuccess": "Player deleted",
+      "withdrawSuccess": "Player withdrawn",
+      "lockedBanner": "Tournament has started. Adding or removing players is disabled. Use Withdraw to adjust."
+    },
+    "rounds": {
+      "empty": "No rounds yet",
+      "emptyHint": "Click the button below to start the first round of pairing",
+      "startPairing": "Start Pairing",
+      "roundLabel": "Round {{number}}",
+      "col": {
+        "table": "#",
+        "white": "White",
+        "black": "Black",
+        "playerA": "Player A",
+        "playerB": "Player B",
+        "result": "Result"
+      },
+      "bye": "BYE",
+      "progress": "{{completed}} / {{total}} results recorded",
+      "generateNext": "Generate Next Round",
+      "generateSuccess": "Next round generated",
+      "generateAll": "Generate Full Schedule",
+      "generateAllSuccess": "Full schedule generated",
+      "generateFailed": "Failed to generate pairings",
+      "validationTitle": "Cannot Start Pairing",
+      "error": {
+        "tooFewPlayers": "At least 2 active players are required",
+        "noFormat": "Tournament format is not set",
+        "incompleteRound": "Current round has unrecorded results",
+        "allRoundsCompleted": "All rounds have been completed"
+      },
+      "lastRound": "This is the final round",
+      "undoRound": "Undo Pairings",
+      "undoTitle": "Undo This Round's Pairings",
+      "undoMessage": "Are you sure you want to undo Round {{round}}? All pairings and results for this round will be removed.",
+      "undoConfirm": "Undo",
+      "undoSuccess": "Round pairings undone",
+      "undoAllRounds": "Clear All Pairings",
+      "undoAllTitle": "Clear All Pairings",
+      "undoAllMessage": "Are you sure you want to clear the full schedule for \"{{name}}\"? All rounds and results will be removed. Players will be kept.",
+      "undoAllConfirm": "Clear All",
+      "undoAllSuccess": "All pairings cleared",
+      "clearResults": "Clear Results",
+      "clearResultsTitle": "Clear This Round's Results",
+      "clearResultsMessage": "Are you sure you want to clear all results for Round {{round}}? Pairings will be kept and you can re-enter results.",
+      "clearResultsConfirm": "Clear",
+      "clearResultsSuccess": "Round results cleared",
+      "forfeit": "Forfeit",
+      "playerForfeit": "{{name}} Forfeit",
+      "doubleForfeit": "Double Forfeit",
+      "halfBye": "Half-Point Bye",
+      "halfByeNext": "Next Round Byes",
+      "halfByeShort": "H.Bye",
+      "halfByeRequest": "Request Half-Point Bye",
+      "halfByeCancel": "Cancel Half-Point Bye",
+      "halfByeHint": "Selected players will sit out the next round and receive draw points (½).",
+      "halfByeDesc": "Half-point bye is for players who cannot participate in a round. Unlike the system bye (full point, auto-assigned for odd numbers), a half-point bye is requested voluntarily and only awards draw points, reflecting the cost of absence.",
+      "halfByeCompare": "System Bye = Full point (win)  |  Half-Point Bye = Half point (draw)",
+      "halfByeChip": "½ Bye",
+      "resultDialog": {
+        "title": "Record Result",
+        "editTitle": "Edit Result",
+        "normalResult": "Result",
+        "forfeitResult": "Forfeit",
+        "notes": "Notes",
+        "notesPlaceholder": "e.g. Late arrival, time forfeit...",
+        "save": "Save",
+        "clearResult": "Clear Result"
+      },
+      "viewTable": "Table",
+      "viewBracket": "Bracket",
+      "bracket": {
+        "wb": "Winners Bracket",
+        "lb": "Losers Bracket",
+        "gf": "Grand Final",
+        "gfReset": "Grand Final Reset",
+        "tbd": "TBD"
+      }
+    },
+    "rankings": {
+      "title": "Rankings",
+      "empty": "No results yet",
+      "emptyHint": "Rankings will appear after the first round results are recorded",
+      "col": {
+        "rank": "#",
+        "name": "Name",
+        "score": "Score",
+        "win": "W",
+        "draw": "D",
+        "loss": "L"
+      },
+      "champion": "Champion",
+      "runnerUp": "Runner-up",
+      "thirdPlace": "3rd Place"
+    }
+  },
+  "toast": {
+    "saved": "Saved successfully",
+    "saveFailed": "Save failed, please try again",
+    "createSuccess": "Tournament created",
+    "createFailed": "Creation failed, please try again",
+    "deleteSuccess": "Tournament deleted",
+    "deleteFailed": "Deletion failed, please try again",
+    "resetSuccess": "Tournament reset",
+    "backupSuccess": "Backup saved",
+    "backupFailed": "Backup failed, please try again",
+    "restoreSuccess": "Tournament restored",
+    "restoreFailed": "Restore failed, please check the file format",
+    "loadFailed": "Failed to load tournament data. The file may be missing or corrupted."
+  },
+  "print": {
+    "playerList": "Player List",
+    "rankings": "Rankings",
+    "crossTable": "Cross Table",
+    "playerCard": "Player Card",
+    "round": "Round",
+    "color": "Color",
+    "opponent": "Opponent",
+    "opponentRating": "Opp. Rating",
+    "cumulative": "Cumulative",
+    "printPlayerList": "Print Roster",
+    "printRankings": "Print Rankings",
+    "printCrossTable": "Print Cross Table",
+    "printPlayerCard": "Print Record",
+    "printRound": "Print Pairings",
+    "pairingSheet": "Pairing Sheet",
+    "prevScore": "Prev. Score",
+    "seedLabel": "No.",
+    "printBtn": "Print",
+    "closePreview": "Close Preview",
+    "exportPlayerList": "Export Roster",
+    "exportRankings": "Export Rankings",
+    "exportCrossTable": "Export Cross Table",
+    "exportRound": "Export Pairings",
+    "exportSuccess": "Exported successfully",
+    "exportTRF": "Export TRF"
+  },
+  "settings": {
+    "tabs": {
+      "basicInfo": "Basic Info",
+      "formatSelect": "Format",
+      "formatParams": "Parameters"
+    },
+    "placeholder": {
+      "venue": "e.g. City Sports Center",
+      "organizer": "e.g. City Chess Association",
+      "chiefReferee": "e.g. John Smith",
+      "totalRounds": "Auto"
+    },
+    "formatLocked": "Tournament has started. To change format, reset the tournament first.",
+    "formatProcess": {
+      "swiss": "Each round pairs players with similar scores. No repeated matchups. Final ranking by total score.",
+      "round_robin": "Every player plays every other player once. Final ranking by total score.",
+      "double_round_robin": "Every player plays every other player twice (once per color). Final ranking by total score.",
+      "elimination": "Losers are eliminated each round. Winners advance until a champion is decided.",
+      "double_elimination": "Winners and losers brackets. First loss sends you to losers bracket; second loss eliminates."
+    },
+    "formatScenario": {
+      "swiss": "Best for large groups with limited rounds",
+      "round_robin": "Best for small groups where fairness is priority",
+      "double_round_robin": "Best for small groups needing color balance in chess",
+      "elimination": "Best for quick results and spectator appeal",
+      "double_elimination": "Best when players deserve a second chance"
+    },
+    "processLabel": "How it works",
+    "scenarioLabel": "Best for",
+    "totalRounds": "Total Rounds",
+    "totalRoundsAuto": "Leave empty to auto-calculate based on player count (⌈log₂(n)⌉), or set manually",
+    "totalRoundsFormula": "Auto-calculation uses ⌈log₂(n)⌉ — the same number of rounds as a knockout tournament, guaranteeing a sole leader. Players vs. rounds:",
+    "totalRoundsAutoElim": "Auto-calculated based on bracket size",
+    "colorBalance": "Color Balance",
+    "colorBalanceDesc": "Balance white/black assignments for each player. Recommended for chess.",
+    "bronzeMatch": "Third Place Match",
+    "bronzeMatchDesc": "Add a match between the two semifinal losers to determine 3rd and 4th place.",
+    "bracketReset": "Grand Finals Reset",
+    "bracketResetDesc": "If losers bracket champion wins Game 1, play a deciding Game 2 (since winners bracket champion has 0 losses).",
+    "allowDraw": "Allow Draws",
+    "allowDrawDesc": "When disabled, every game must have a decisive result. Suitable for Go (with komi), elimination events, etc.",
+    "scoring": "Scoring Rules",
+    "scoreWin": "Win",
+    "scoreDraw": "Draw",
+    "scoreLoss": "Loss",
+    "tiebreakers": "Tiebreak Rules",
+    "tiebreakersDesc": "When scores are tied, these criteria are applied in order of priority.",
+    "tbAdd": "Add Rule",
+    "tbEmpty": "No tiebreaker rules configured",
+    "tbCalcLabel": "How it works",
+    "tbMeaningLabel": "Why use it",
+    "tb": {
+      "bhc1": "Buchholz Cut-1 (BH-C1)",
+      "bh": "Buchholz (BH)",
+      "bhc2": "Buchholz Cut-2 (BH-C2)",
+      "bhm1": "Median Buchholz (BH-M1)",
+      "de": "Direct Encounter",
+      "sb": "Sonneborn-Berger (SB)",
+      "progressive": "Progressive Score",
+      "wins": "Number of Wins",
+      "koya": "Koya System",
+      "black": "Number of Black Games"
+    },
+    "tbDesc": {
+      "bhc1": "Sum of all opponents' scores, dropping the lowest one",
+      "bh": "Sum of all opponents' scores — stronger opponents mean a higher value",
+      "bhc2": "Sum of all opponents' scores, dropping the two lowest",
+      "bhm1": "Sum of all opponents' scores, dropping the highest and lowest",
+      "de": "Head-to-head result between tied players",
+      "sb": "Full credit for wins, half for draws, none for losses — weighted by opponent strength",
+      "progressive": "Running total of scores after each round — early wins count more",
+      "wins": "Total number of games won (draws don't count)",
+      "koya": "Score against opponents who achieved 50%+ of max points — for round robin",
+      "black": "Total games played as black (second player) — more is better"
+    },
+    "tbMeaning": {
+      "bhc1": "Stronger opponents mean higher quality results; dropping the lowest removes first-round luck",
+      "bh": "Complements Cut-1 with a complete picture of opponent strength",
+      "bhc2": "Better for large events — dropping two extremes gives more stable results",
+      "bhm1": "Removes both the strongest and weakest outliers for a fairer middle ground",
+      "de": "When tied players met each other, the winner deserves the higher rank",
+      "sb": "Distinguishes beating strong opponents from beating weak ones — measures win quality",
+      "progressive": "Rewards players who performed consistently well from the start",
+      "wins": "Among equal scores, more decisive wins show a more aggressive playing style",
+      "koya": "Only counts results against strong opponents — ideal for round robin evaluation",
+      "black": "Playing black (second) is a natural disadvantage — more black games deserve compensation"
+    },
+    "avoidances": "Avoidance Rules",
+    "avoidancesDesc": "Specify player pairs that should not be matched against each other during pairing.",
+    "avoidanceAdd": "Add Rule",
+    "avoidanceEmpty": "No avoidance rules configured",
+    "avoidancePlayerA": "Player A",
+    "avoidancePlayerB": "Player B",
+    "avoidanceDuplicate": "This avoidance rule already exists"
+  },
+  "help": {
+    "title": "Help & Documentation",
+    "intro": {
+      "title": "About SaiPair",
+      "desc": "SaiPair is a free, offline-first desktop tournament management software. It helps organizers with player pairing, schedule arrangement, result recording, and ranking calculation.",
+      "features": "Supported formats: Swiss, Round Robin, Double Round Robin, Single Elimination, Double Elimination. Features include flexible scoring rules, multiple tiebreak criteria, Excel/CSV import & export, print support, and more."
+    },
+    "quickStart": {
+      "title": "Quick Start",
+      "step1": "Create a tournament — click \"Create New Tournament\" on the home page, enter a name to get started. Format defaults to Swiss; all settings can be changed later.",
+      "step2": "Add players — go to the Players tab to add players one by one, or import from an Excel/CSV file in bulk.",
+      "step3": "Generate pairings — go to the Rounds tab, click \"Start Pairing\" to generate the first round. The system pairs players automatically based on the selected format.",
+      "step4": "Record results — click each pairing row to enter the result. Once all results are recorded, you can generate the next round.",
+      "step5": "View rankings — go to the Rankings tab. Rankings update in real time based on scores and tiebreak rules. You can also print or export results."
+    },
+    "settings": {
+      "title": "Tournament Settings",
+      "format": "Format: Choose from Swiss, Round Robin, Double Round Robin, Single Elimination, or Double Elimination. Once the first round is generated, the format is locked. To change it, reset the tournament first.",
+      "scoring": "Scoring: Configure points for win, draw, and loss. Default is 2-1-0 (stored as integers internally, displayed divided by 2).",
+      "tiebreakers": "Tiebreak rules: When players have the same score, tiebreak criteria are applied in priority order. Supported: Buchholz (BH, BH-C1, BH-C2, BH-M1), Sonneborn-Berger, Progressive Score, Direct Encounter, Number of Wins, Koya System, Number of Black Games."
+    },
+    "players": {
+      "title": "Player Management",
+      "desc": "Add players manually or import from Excel/CSV. Each player has fields: name (required), rating, organization, gender, birth date, title, phone, and notes. After the tournament starts (first round generated), you cannot add or delete players — use the Withdraw function instead. Withdrawn players are excluded from future pairings but their past results are preserved."
+    },
+    "rounds": {
+      "title": "Rounds & Pairings",
+      "desc": "Click \"Start Pairing\" or \"Generate Next Round\" to create pairings. The system automatically pairs players based on the format rules. Click a pairing row to record the result (win/draw/loss/forfeit). You can undo the current round's pairings, clear results, or undo all rounds. For elimination formats, a bracket view is available."
+    },
+    "rankings": {
+      "title": "Rankings & Export",
+      "desc": "Rankings are calculated in real time from scores and tiebreak rules — no manual action needed. You can print player rosters, ranking tables, cross tables, individual record cards, and pairing sheets. Export to Excel is also supported. For Swiss tournaments, TRF format export is available for interoperability with other systems."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "Can I change the format after the tournament starts?",
+      "a1": "No. Once the first round is generated, the format is locked. You can reset the tournament (clears all rounds, keeps players) to unlock the format selection.",
+      "q2": "What happens when a player withdraws?",
+      "a2": "Withdrawn players are excluded from future pairings. Their past results remain in the records. Opponents who played against a withdrawn player keep their results. You can restore a withdrawn player at any time.",
+      "q3": "How is ranking calculated?",
+      "a3": "Primary ranking is by total score. When scores are tied, tiebreak rules are applied in the order you configured. You can add, remove, or reorder tiebreak criteria in tournament settings.",
+      "q4": "Where is my data stored?",
+      "a4": "All data is stored locally on your computer as JSON files. You can back up a tournament to a .saipair file and restore it on another computer. No internet connection is required."
+    },
+    "about": {
+      "title": "About",
+      "version": "SaiPair — Free, offline-first tournament management software.",
+      "website": "Website: saipair.com",
+      "feedback": "Feedback & support: Please visit saipair.com for contact information and to report issues."
+    }
+  },
+  "error": {
+    "title": "Something went wrong",
+    "unknown": "Unknown error",
+    "reload": "Reload"
+  }
+}

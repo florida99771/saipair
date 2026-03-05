@@ -1,0 +1,48 @@
+appId: com.saipair.desktop
+productName: SaiPair
+copyright: Copyright © 2026 SaiPair
+
+directories:
+  output: release
+  buildResources: resources
+
+# 打包范围：仅 vite build 产物
+files:
+  - dist/**
+  - dist-electron/**
+
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: SaiPair
+
+mac:
+  target:
+    - target: dmg
+      arch:
+        - x64
+        - arm64
+  category: public.app-category.utilities
+
+linux:
+  target:
+    - target: AppImage
+      arch:
+        - x64
+  category: Utility
+
+# .saipair 文件关联
+fileAssociations:
+  - ext: saipair
+    name: SaiPair Tournament File
+    description: SaiPair Tournament File
+    role: Editor

@@ -1,0 +1,429 @@
+{
+  "app": {
+    "name": "赛排 SaiPair"
+  },
+  "home": {
+    "welcome": "欢迎使用赛排",
+    "slogan": "简单配置，轻松办赛",
+    "createTournament": "创建新赛事",
+    "restoreBackup": "从备份恢复",
+    "recentTournaments": "最近赛事",
+    "players": "{{count}}人",
+    "roundInfo": "第{{current}}轮",
+    "final": "决赛",
+    "statusNotStarted": "未开始",
+    "statusInProgress": "进行中",
+    "statusCompleted": "已完成",
+    "viewAll": "查看全部赛事"
+  },
+  "tournaments": {
+    "title": "全部赛事",
+    "search": "搜索赛事...",
+    "filterAll": "全部",
+    "sortByDate": "按日期",
+    "sortByName": "按名称",
+    "noResults": "未找到匹配的赛事",
+    "total": "共 {{count}} 个赛事"
+  },
+  "common": {
+    "settings": "设置",
+    "help": "帮助",
+    "lightMode": "浅色",
+    "darkMode": "深色",
+    "cancel": "取消",
+    "create": "创建赛事",
+    "save": "保存",
+    "delete": "删除"
+  },
+  "deleteDialog": {
+    "title": "删除赛事",
+    "message": "确定要删除「{{name}}」吗？此操作无法撤销。",
+    "confirm": "删除"
+  },
+  "resetDialog": {
+    "title": "重置赛事",
+    "message": "确定要重置「{{name}}」吗？所有轮次编排和成绩将被清除，选手和设置保留。赛制锁定将解除，可以重新选择赛制。",
+    "confirm": "重置"
+  },
+  "createDialog": {
+    "title": "创建新赛事",
+    "subtitle": "输入赛事名称即可创建，其他设置随时可以修改。",
+    "nameLabel": "赛事名称",
+    "namePlaceholder": "例如：2026年春季象棋公开赛"
+  },
+  "format": {
+    "swiss": "瑞士制",
+    "round_robin": "单循环赛",
+    "double_round_robin": "双循环赛",
+    "elimination": "单淘汰",
+    "double_elimination": "双败淘汰"
+  },
+  "tournament": {
+    "saving": "保存中...",
+    "saved": "已保存",
+    "backToList": "赛事列表",
+    "backupTournament": "备份赛事",
+    "roundProgress": "第{{current}}轮 / 共{{total}}轮",
+    "playersCount": "共 {{count}} 名选手",
+    "currentRoundInfo": "已完成 {{count}} 轮",
+    "nav": {
+      "settings": "赛事设置",
+      "players": "选手管理",
+      "rounds": "轮次编排",
+      "rankings": "排名成绩",
+      "export": "导出打印"
+    },
+    "field": {
+      "name": "赛事名称",
+      "startDate": "开始日期",
+      "endDate": "结束日期",
+      "venue": "比赛地点",
+      "organizer": "组织者",
+      "chiefReferee": "裁判长",
+      "format": "赛制"
+    },
+    "players": {
+      "title": "选手管理",
+      "count": "共 {{count}} 名选手",
+      "add": "添加选手",
+      "empty": "暂无选手",
+      "emptyHint": "点击上方按钮添加第一位选手",
+      "col": {
+        "seed": "#",
+        "name": "姓名",
+        "gender": "性别",
+        "birthDate": "出生日期",
+        "title": "称号",
+        "rating": "等级分",
+        "organization": "单位",
+        "phone": "联系方式",
+        "notes": "备注",
+        "status": "状态"
+      },
+      "gender": {
+        "male": "男",
+        "female": "女"
+      },
+      "status": {
+        "active": "在册",
+        "withdrawn": "退赛"
+      },
+      "namePlaceholder": "必填",
+      "titlePlaceholder": "例如：GM、业余5段",
+      "ratingPlaceholder": "选填，默认 0",
+      "orgPlaceholder": "例如：市棋协",
+      "phonePlaceholder": "例如：13800138000",
+      "notesPlaceholder": "选填",
+      "registeredAt": "报名时间：",
+      "confirmAdd": "添加",
+      "edit": "编辑选手",
+      "withdraw": "退赛",
+      "withdrawMsg": "确定将「{{name}}」标记为退赛吗？",
+      "restore": "恢复",
+      "restoreMsg": "确定将「{{name}}」恢复为在册状态吗？",
+      "restoreSuccess": "选手已恢复",
+      "deleteTitle": "删除选手",
+      "deleteMsg": "确定要删除「{{name}}」吗？此操作无法撤销。",
+      "import": "导入",
+      "importTitle": "导入选手",
+      "importHint": "检测到 {{count}} 行数据，请设置字段对应关系",
+      "importColSystem": "系统字段",
+      "importColExcel": "Excel 对应列",
+      "importColSample": "示例数据",
+      "importSkip": "不导入",
+      "importConfirm": "导入 {{count}} 名选手",
+      "importSuccess": "成功导入 {{count}} 名选手",
+      "importFailed": "导入失败，请检查文件格式",
+      "importEmpty": "文件中没有数据",
+      "importNoName": "请设置姓名对应的列",
+      "addSuccess": "选手已添加",
+      "editSuccess": "选手信息已更新",
+      "deleteSuccess": "选手已删除",
+      "withdrawSuccess": "选手已退赛",
+      "lockedBanner": "赛事已开始，无法添加或删除选手。如需调整请使用退赛功能。"
+    },
+    "rounds": {
+      "empty": "暂无轮次",
+      "emptyHint": "点击下方按钮开始首轮配对",
+      "startPairing": "开始配对",
+      "roundLabel": "第{{number}}轮",
+      "col": {
+        "table": "台号",
+        "white": "白方",
+        "black": "黑方",
+        "playerA": "选手A",
+        "playerB": "选手B",
+        "result": "结果"
+      },
+      "bye": "轮空",
+      "progress": "已录入 {{completed}} / {{total}} 场结果",
+      "generateNext": "生成下一轮",
+      "generateSuccess": "下一轮配对已生成",
+      "generateAll": "生成完整赛程",
+      "generateAllSuccess": "完整赛程已生成",
+      "generateFailed": "配对生成失败",
+      "validationTitle": "无法开始配对",
+      "error": {
+        "tooFewPlayers": "至少需要 2 名在册选手",
+        "noFormat": "赛制尚未设定",
+        "incompleteRound": "当前轮次有未录入的成绩",
+        "allRoundsCompleted": "所有轮次已完成"
+      },
+      "lastRound": "已是最后一轮",
+      "undoRound": "撤回本轮编排",
+      "undoTitle": "撤回本轮编排",
+      "undoMessage": "确定要撤回第{{round}}轮吗？该轮的所有配对和成绩将被移除。",
+      "undoConfirm": "撤回",
+      "undoSuccess": "本轮编排已撤回",
+      "undoAllRounds": "撤回全部编排",
+      "undoAllTitle": "撤回全部编排",
+      "undoAllMessage": "确定要撤回「{{name}}」的全部赛程吗？所有轮次和成绩将被清除，选手保留。",
+      "undoAllConfirm": "撤回全部",
+      "undoAllSuccess": "全部编排已撤回",
+      "clearResults": "清除本轮成绩",
+      "clearResultsTitle": "清除本轮成绩",
+      "clearResultsMessage": "确定要清除第{{round}}轮的所有成绩吗？配对保持不变，可以重新录入。",
+      "clearResultsConfirm": "清除",
+      "clearResultsSuccess": "本轮成绩已清除",
+      "forfeit": "判负",
+      "playerForfeit": "{{name}} 判负",
+      "doubleForfeit": "双方弃权",
+      "halfBye": "半分轮空",
+      "halfByeNext": "下轮半分轮空",
+      "halfByeShort": "半轮空",
+      "halfByeRequest": "申请半分轮空",
+      "halfByeCancel": "取消半分轮空",
+      "halfByeHint": "勾选的选手将在下一轮不参赛，获得和棋积分（½ 分）。",
+      "halfByeDesc": "半分轮空用于选手因故无法参加某一轮比赛的情况。与系统自动分配的轮空（得满分）不同，半分轮空由选手主动申请，仅获得和棋积分，体现了缺席的代价。",
+      "halfByeCompare": "系统轮空 = 满分（胜分）　｜　半分轮空 = 半分（和棋分）",
+      "halfByeChip": "½ 轮空",
+      "resultDialog": {
+        "title": "录入成绩",
+        "editTitle": "编辑成绩",
+        "normalResult": "比赛结果",
+        "forfeitResult": "判负",
+        "notes": "备注",
+        "notesPlaceholder": "例如：迟到、超时判负…",
+        "save": "保存",
+        "clearResult": "清除成绩"
+      },
+      "viewTable": "表格",
+      "viewBracket": "签表",
+      "bracket": {
+        "wb": "胜者组",
+        "lb": "败者组",
+        "gf": "大决赛",
+        "gfReset": "大决赛加赛",
+        "tbd": "待定"
+      }
+    },
+    "rankings": {
+      "title": "排名成绩",
+      "empty": "暂无成绩",
+      "emptyHint": "首轮成绩录入后将自动生成排名",
+      "col": {
+        "rank": "#",
+        "name": "姓名",
+        "score": "积分",
+        "win": "胜",
+        "draw": "和",
+        "loss": "负"
+      },
+      "champion": "冠军",
+      "runnerUp": "亚军",
+      "thirdPlace": "季军"
+    }
+  },
+  "toast": {
+    "saved": "保存成功",
+    "saveFailed": "保存失败，请重试",
+    "createSuccess": "赛事创建成功",
+    "createFailed": "创建失败，请重试",
+    "deleteSuccess": "赛事已删除",
+    "deleteFailed": "删除失败，请重试",
+    "resetSuccess": "赛事已重置",
+    "backupSuccess": "备份已保存",
+    "backupFailed": "备份失败，请重试",
+    "restoreSuccess": "赛事已恢复",
+    "restoreFailed": "恢复失败，请检查文件格式",
+    "loadFailed": "赛事数据加载失败，文件可能缺失或已损坏。"
+  },
+  "print": {
+    "playerList": "选手名册",
+    "rankings": "排名成绩表",
+    "crossTable": "交叉表",
+    "playerCard": "个人战绩卡",
+    "round": "轮次",
+    "color": "颜色",
+    "opponent": "对手",
+    "opponentRating": "对手等级分",
+    "cumulative": "累积分",
+    "printPlayerList": "打印名册",
+    "printRankings": "打印排名表",
+    "printCrossTable": "打印交叉表",
+    "printPlayerCard": "打印战绩",
+    "printRound": "打印对阵表",
+    "pairingSheet": "编排公布表",
+    "prevScore": "上轮积分",
+    "seedLabel": "编号",
+    "printBtn": "打印",
+    "closePreview": "关闭预览",
+    "exportPlayerList": "导出名册",
+    "exportRankings": "导出排名",
+    "exportCrossTable": "导出交叉表",
+    "exportRound": "导出对阵表",
+    "exportSuccess": "导出成功",
+    "exportTRF": "导出 TRF"
+  },
+  "settings": {
+    "tabs": {
+      "basicInfo": "基本信息",
+      "formatSelect": "赛制选择",
+      "formatParams": "赛制参数"
+    },
+    "placeholder": {
+      "venue": "例如：市体育馆",
+      "organizer": "例如：市棋协、张三",
+      "chiefReferee": "例如：张三",
+      "totalRounds": "自动"
+    },
+    "formatLocked": "赛事已开始，无法更改赛制。如需更改请先重置赛事。",
+    "formatProcess": {
+      "swiss": "每轮按积分相近原则配对，不重复对阵，经过若干轮后按总积分排名",
+      "round_robin": "所有选手两两对阵一次，按总积分排名",
+      "double_round_robin": "所有选手两两对阵两次（先后手各一次），按总积分排名",
+      "elimination": "每轮淘汰负方，胜者晋级下一轮，直至决出冠军",
+      "double_elimination": "设胜者组与败者组，首负进入败者组，再负则淘汰"
+    },
+    "formatScenario": {
+      "swiss": "适合参赛人数多、轮次有限的比赛",
+      "round_robin": "适合人数较少、追求公平性的比赛",
+      "double_round_robin": "适合人数少且需要先后手平衡的棋类比赛",
+      "elimination": "适合快速决出冠军、观赏性强的赛事",
+      "double_elimination": "适合希望给选手更多机会的淘汰赛"
+    },
+    "processLabel": "赛制过程",
+    "scenarioLabel": "适用场景",
+    "totalRounds": "总轮次",
+    "totalRoundsAuto": "留空则根据参赛人数自动计算（⌈log₂(n)⌉），也可手动指定",
+    "totalRoundsFormula": "自动计算公式为 ⌈log₂(n)⌉，即与淘汰赛轮次相同——保证经过该轮次后可产生唯一全胜者。下表为选手人数与对应轮次：",
+    "totalRoundsAutoElim": "根据对阵表结构自动计算",
+    "colorBalance": "先后手平衡",
+    "colorBalanceDesc": "启用后配对时尽量平衡每位选手的先后手次数，适用于棋类比赛",
+    "bronzeMatch": "三四名决赛",
+    "bronzeMatchDesc": "在两位半决赛负者之间增加一场比赛，决出第三、四名",
+    "bracketReset": "大决赛重赛机制",
+    "bracketResetDesc": "若败者组冠军赢得第一场大决赛，则加赛一场决胜（因为胜者组冠军此前零负）",
+    "allowDraw": "允许平局",
+    "allowDrawDesc": "关闭后每局必须分出胜负，适用于围棋（有贴目）、淘汰赛等",
+    "scoring": "计分规则",
+    "scoreWin": "胜",
+    "scoreDraw": "和",
+    "scoreLoss": "负",
+    "tiebreakers": "破同分规则",
+    "tiebreakersDesc": "同分时按以下规则依次比较，排在前面的优先级更高",
+    "tbAdd": "添加规则",
+    "tbEmpty": "未配置破同分规则",
+    "tbCalcLabel": "计算方式",
+    "tbMeaningLabel": "选用意义",
+    "tb": {
+      "bhc1": "对手分减1（布赫兹 BH-C1）",
+      "bh": "对手分（布赫兹 BH）",
+      "bhc2": "对手分减2（布赫兹 BH-C2）",
+      "bhm1": "对手分中位（布赫兹 BH-M1）",
+      "de": "直接对阵",
+      "sb": "索伯延-伯格 (SB)",
+      "progressive": "累进分",
+      "wins": "胜局数",
+      "koya": "科亚系统",
+      "black": "执黑局数"
+    },
+    "tbDesc": {
+      "bhc1": "所有对手的积分之和，去掉最低的一个",
+      "bh": "所有对手的积分之和，对手越强则该值越高",
+      "bhc2": "所有对手的积分之和，去掉最低的两个",
+      "bhm1": "所有对手的积分之和，去掉最高和最低各一个",
+      "de": "同分选手之间的直接交手战绩",
+      "sb": "胜局对手积分计全分，和棋计一半，负局不计",
+      "progressive": "每轮结束后的积分逐轮累加，前期赢棋的选手得分更高",
+      "wins": "总共赢了多少局（和棋不计）",
+      "koya": "对积分过半的对手所取得的得分之和，适用于循环赛",
+      "black": "执黑（后手）的总局数，局数多者优先"
+    },
+    "tbMeaning": {
+      "bhc1": "对手越强，成绩含金量越高；去掉最低可排除首轮随机配对的运气因素",
+      "bh": "与减1互补，提供完整的对手强度评估",
+      "bhc2": "适合大型赛事，去掉两个极端值使结果更稳定",
+      "bhm1": "同时去掉最强和最弱对手的影响，取中间值更公平",
+      "de": "同分选手直接交过手时，赢的一方理应排名更高",
+      "sb": "区分「赢强输弱」与「赢弱输强」，衡量胜利的质量",
+      "progressive": "奖励从比赛开始就表现稳定、前期赢棋的选手",
+      "wins": "同积分下，多胜少和的选手比多和少胜的选手更有进攻性",
+      "koya": "只看对强手的战绩，适合循环赛中评估实力",
+      "black": "执黑（后手）天然劣势，执黑多的选手应获得补偿"
+    },
+    "avoidances": "回避规则",
+    "avoidancesDesc": "指定不应被配对在一起的选手组合，编排时会尽量回避。",
+    "avoidanceAdd": "添加规则",
+    "avoidanceEmpty": "暂无回避规则",
+    "avoidancePlayerA": "选手 A",
+    "avoidancePlayerB": "选手 B",
+    "avoidanceDuplicate": "该回避规则已存在"
+  },
+  "help": {
+    "title": "帮助与文档",
+    "intro": {
+      "title": "软件简介",
+      "desc": "赛排（SaiPair）是一款免费、离线优先的桌面赛事编排软件。帮助赛事组织者完成选手配对、赛程安排、成绩管理和排名计算。",
+      "features": "支持赛制：瑞士制、单循环、双循环、单淘汰、双败淘汰。功能包括灵活的计分规则、多种破同分规则、Excel/CSV 导入导出、打印输出等。"
+    },
+    "quickStart": {
+      "title": "快速上手",
+      "step1": "创建赛事 — 在首页点击「创建新赛事」，输入名称即可。赛制默认为瑞士制，所有设置都可以稍后修改。",
+      "step2": "添加选手 — 进入「选手管理」页面，逐个添加选手，或从 Excel/CSV 文件批量导入。",
+      "step3": "生成配对 — 进入「轮次编排」页面，点击「开始配对」生成首轮对阵。系统会根据所选赛制自动配对。",
+      "step4": "录入成绩 — 点击每行配对录入比赛结果。所有结果录入完成后，可以生成下一轮。",
+      "step5": "查看排名 — 进入「排名成绩」页面。排名根据积分和破同分规则实时更新。也可以打印或导出成绩。"
+    },
+    "settings": {
+      "title": "赛事设置",
+      "format": "赛制选择：支持瑞士制、单循环、双循环、单淘汰、双败淘汰。首轮配对生成后赛制锁定，如需更改请先重置赛事。",
+      "scoring": "计分规则：可配置胜、和、负的积分。默认 2-1-0（内部以整数存储，展示时除以 2）。",
+      "tiebreakers": "破同分规则：同分时依次使用破同分规则比较。支持：布赫兹（BH、BH-C1、BH-C2、BH-M1）、索伯延-伯格、累进分、直接对阵、胜局数、科亚系统、执黑局数。"
+    },
+    "players": {
+      "title": "选手管理",
+      "desc": "支持手动添加或从 Excel/CSV 导入选手。选手字段包括：姓名（必填）、等级分、单位、性别、出生日期、称号、联系方式和备注。赛事开始后（首轮生成后），不能添加或删除选手，请使用「退赛」功能。退赛选手不再参加后续配对，但已有的比赛记录保留。"
+    },
+    "rounds": {
+      "title": "轮次编排",
+      "desc": "点击「开始配对」或「生成下一轮」生成对阵。系统根据赛制规则自动配对。点击某行配对录入比赛结果（胜/和/负/判负）。可以撤回本轮编排、清除本轮成绩或撤回全部编排。淘汰赛支持签表视图。"
+    },
+    "rankings": {
+      "title": "排名与导出",
+      "desc": "排名根据积分和破同分规则实时计算，无需手动操作。支持打印选手名册、排名表、交叉表、个人战绩卡和对阵表。支持导出为 Excel 文件。瑞士制赛事还支持导出 TRF 格式，便于与其他系统对接。"
+    },
+    "faq": {
+      "title": "常见问题",
+      "q1": "赛事开始后能否更改赛制？",
+      "a1": "不能。首轮配对生成后赛制即锁定。可以通过「重置赛事」（清除所有轮次，保留选手）来解锁赛制选择。",
+      "q2": "选手退赛后会怎样？",
+      "a2": "退赛选手不再参加后续配对，但已有的比赛记录保留。曾与退赛选手对阵的对手成绩不受影响。随时可以恢复退赛选手。",
+      "q3": "排名是如何计算的？",
+      "a3": "首先按总积分排名。同分时，按您配置的破同分规则依次比较。您可以在赛事设置中添加、删除或调整破同分规则的顺序。",
+      "q4": "数据存储在哪里？",
+      "a4": "所有数据以 JSON 文件形式存储在本地电脑上。您可以将赛事备份为 .saipair 文件，在其他电脑上恢复。无需联网。"
+    },
+    "about": {
+      "title": "关于",
+      "version": "赛排 SaiPair — 免费、离线优先的赛事编排软件。",
+      "website": "官网：saipair.com",
+      "feedback": "反馈与支持：请访问 saipair.com 获取联系方式和问题反馈入口。"
+    }
+  },
+  "error": {
+    "title": "出现了一个错误",
+    "unknown": "未知错误",
+    "reload": "重新加载"
+  }
+}

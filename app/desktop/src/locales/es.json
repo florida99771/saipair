@@ -1,0 +1,429 @@
+{
+  "app": {
+    "name": "SaiPair"
+  },
+  "home": {
+    "welcome": "Bienvenido a SaiPair",
+    "slogan": "Configuración sencilla, torneos sin complicaciones",
+    "createTournament": "Crear nuevo torneo",
+    "restoreBackup": "Restaurar desde copia de seguridad",
+    "recentTournaments": "TORNEOS RECIENTES",
+    "players": "{{count}} jugadores",
+    "roundInfo": "Ronda {{current}}",
+    "final": "Final",
+    "statusNotStarted": "No iniciado",
+    "statusInProgress": "En curso",
+    "statusCompleted": "Completado",
+    "viewAll": "Ver todos los torneos"
+  },
+  "tournaments": {
+    "title": "Todos los torneos",
+    "search": "Buscar torneos...",
+    "filterAll": "Todos",
+    "sortByDate": "Por fecha",
+    "sortByName": "Por nombre",
+    "noResults": "No se encontraron torneos",
+    "total": "{{count}} torneos"
+  },
+  "common": {
+    "settings": "Configuración",
+    "help": "Ayuda",
+    "lightMode": "Claro",
+    "darkMode": "Oscuro",
+    "cancel": "Cancelar",
+    "create": "Crear torneo",
+    "save": "Guardar",
+    "delete": "Eliminar"
+  },
+  "deleteDialog": {
+    "title": "Eliminar torneo",
+    "message": "¿Estás seguro de que deseas eliminar \"{{name}}\"? Esta acción no se puede deshacer.",
+    "confirm": "Eliminar"
+  },
+  "resetDialog": {
+    "title": "Restablecer torneo",
+    "message": "¿Estás seguro de que deseas restablecer \"{{name}}\"? Se eliminarán todas las rondas, emparejamientos y resultados. Los jugadores y la configuración se conservarán. El bloqueo de formato se liberará.",
+    "confirm": "Restablecer"
+  },
+  "createDialog": {
+    "title": "Crear nuevo torneo",
+    "subtitle": "Solo escribe un nombre para empezar. El resto de la configuración se puede cambiar más adelante.",
+    "nameLabel": "Nombre del torneo",
+    "namePlaceholder": "ej. Open de Ajedrez Primavera 2026"
+  },
+  "format": {
+    "swiss": "Suizo",
+    "round_robin": "Todos contra todos",
+    "double_round_robin": "Doble todos contra todos",
+    "elimination": "Eliminación directa",
+    "double_elimination": "Doble eliminación"
+  },
+  "tournament": {
+    "saving": "Guardando...",
+    "saved": "Guardado",
+    "backToList": "Torneos",
+    "backupTournament": "Copia de seguridad",
+    "roundProgress": "Ronda {{current}} / {{total}}",
+    "playersCount": "{{count}} jugadores",
+    "currentRoundInfo": "{{count}} rondas completadas",
+    "nav": {
+      "settings": "Configuración",
+      "players": "Jugadores",
+      "rounds": "Rondas",
+      "rankings": "Clasificación",
+      "export": "Exportar"
+    },
+    "field": {
+      "name": "Nombre",
+      "startDate": "Fecha de inicio",
+      "endDate": "Fecha de fin",
+      "venue": "Sede",
+      "organizer": "Organizador",
+      "chiefReferee": "Árbitro principal",
+      "format": "Formato"
+    },
+    "players": {
+      "title": "Jugadores",
+      "count": "{{count}} jugadores",
+      "add": "Añadir jugador",
+      "empty": "Aún no hay jugadores",
+      "emptyHint": "Haz clic en el botón de arriba para añadir el primer jugador",
+      "col": {
+        "seed": "#",
+        "name": "Nombre",
+        "gender": "Género",
+        "birthDate": "Fecha de nacimiento",
+        "title": "Título",
+        "rating": "Rating",
+        "organization": "Organización",
+        "phone": "Teléfono",
+        "notes": "Notas",
+        "status": "Estado"
+      },
+      "gender": {
+        "male": "Masculino",
+        "female": "Femenino"
+      },
+      "status": {
+        "active": "Activo",
+        "withdrawn": "Retirado"
+      },
+      "namePlaceholder": "Obligatorio",
+      "titlePlaceholder": "ej. GM, 5-dan",
+      "ratingPlaceholder": "Opcional, por defecto 0",
+      "orgPlaceholder": "ej. Club de Ajedrez Municipal",
+      "phonePlaceholder": "ej. 612345678",
+      "notesPlaceholder": "Opcional",
+      "registeredAt": "Registrado: ",
+      "confirmAdd": "Añadir",
+      "edit": "Editar jugador",
+      "withdraw": "Retirar",
+      "withdrawMsg": "¿Marcar a \"{{name}}\" como retirado?",
+      "restore": "Restaurar",
+      "restoreMsg": "¿Restaurar a \"{{name}}\" al estado activo?",
+      "restoreSuccess": "Jugador restaurado",
+      "deleteTitle": "Eliminar jugador",
+      "deleteMsg": "¿Estás seguro de que deseas eliminar a \"{{name}}\"? Esta acción no se puede deshacer.",
+      "import": "Importar",
+      "importTitle": "Importar jugadores",
+      "importHint": "Se encontraron {{count}} filas. Por favor, asigna los campos a continuación.",
+      "importColSystem": "Campo",
+      "importColExcel": "Columna Excel",
+      "importColSample": "Muestra",
+      "importSkip": "Omitir",
+      "importConfirm": "Importar {{count}} jugadores",
+      "importSuccess": "Se importaron correctamente {{count}} jugadores",
+      "importFailed": "Error al importar, comprueba el formato del archivo",
+      "importEmpty": "No se encontraron datos en el archivo",
+      "importNoName": "Por favor, selecciona una columna para el campo Nombre",
+      "addSuccess": "Jugador añadido",
+      "editSuccess": "Jugador actualizado",
+      "deleteSuccess": "Jugador eliminado",
+      "withdrawSuccess": "Jugador retirado",
+      "lockedBanner": "El torneo ya ha comenzado. No se pueden añadir ni eliminar jugadores. Usa Retirar para hacer ajustes."
+    },
+    "rounds": {
+      "empty": "Aún no hay rondas",
+      "emptyHint": "Haz clic en el botón de abajo para comenzar el emparejamiento de la primera ronda",
+      "startPairing": "Iniciar emparejamiento",
+      "roundLabel": "Ronda {{number}}",
+      "col": {
+        "table": "#",
+        "white": "Blancas",
+        "black": "Negras",
+        "playerA": "Jugador A",
+        "playerB": "Jugador B",
+        "result": "Resultado"
+      },
+      "bye": "BYE",
+      "progress": "{{completed}} / {{total}} resultados registrados",
+      "generateNext": "Generar siguiente ronda",
+      "generateSuccess": "Siguiente ronda generada",
+      "generateAll": "Generar calendario completo",
+      "generateAllSuccess": "Calendario completo generado",
+      "generateFailed": "Error al generar los emparejamientos",
+      "validationTitle": "No se puede iniciar el emparejamiento",
+      "error": {
+        "tooFewPlayers": "Se necesitan al menos 2 jugadores activos",
+        "noFormat": "No se ha establecido el formato del torneo",
+        "incompleteRound": "La ronda actual tiene resultados sin registrar",
+        "allRoundsCompleted": "Todas las rondas han sido completadas"
+      },
+      "lastRound": "Esta es la ronda final",
+      "undoRound": "Deshacer emparejamientos",
+      "undoTitle": "Deshacer los emparejamientos de esta ronda",
+      "undoMessage": "¿Estás seguro de que deseas deshacer la Ronda {{round}}? Se eliminarán todos los emparejamientos y resultados de esta ronda.",
+      "undoConfirm": "Deshacer",
+      "undoSuccess": "Emparejamientos de la ronda deshecho",
+      "undoAllRounds": "Borrar todos los emparejamientos",
+      "undoAllTitle": "Borrar todos los emparejamientos",
+      "undoAllMessage": "¿Estás seguro de que deseas borrar el calendario completo de \"{{name}}\"? Se eliminarán todas las rondas y resultados. Los jugadores se conservarán.",
+      "undoAllConfirm": "Borrar todo",
+      "undoAllSuccess": "Todos los emparejamientos borrados",
+      "clearResults": "Borrar resultados",
+      "clearResultsTitle": "Borrar los resultados de esta ronda",
+      "clearResultsMessage": "¿Estás seguro de que deseas borrar todos los resultados de la Ronda {{round}}? Los emparejamientos se conservarán y podrás volver a introducir los resultados.",
+      "clearResultsConfirm": "Borrar",
+      "clearResultsSuccess": "Resultados de la ronda borrados",
+      "forfeit": "Abandono",
+      "playerForfeit": "Abandono de {{name}}",
+      "doubleForfeit": "Doble abandono",
+      "halfBye": "Bye de medio punto",
+      "halfByeNext": "Byes de la próxima ronda",
+      "halfByeShort": "½ Bye",
+      "halfByeRequest": "Solicitar bye de medio punto",
+      "halfByeCancel": "Cancelar bye de medio punto",
+      "halfByeHint": "Los jugadores seleccionados no participarán en la próxima ronda y recibirán puntos de tablas (½).",
+      "halfByeDesc": "El bye de medio punto es para jugadores que no pueden participar en una ronda. A diferencia del bye del sistema (punto completo, asignado automáticamente con número impar de jugadores), el bye de medio punto se solicita voluntariamente y solo otorga puntos de tablas, reflejando el coste de la ausencia.",
+      "halfByeCompare": "Bye del sistema = Punto completo (victoria)  |  Bye de medio punto = Medio punto (tablas)",
+      "halfByeChip": "½ Bye",
+      "resultDialog": {
+        "title": "Registrar resultado",
+        "editTitle": "Editar resultado",
+        "normalResult": "Resultado",
+        "forfeitResult": "Abandono",
+        "notes": "Notas",
+        "notesPlaceholder": "ej. Llegada tardía, abandono por tiempo...",
+        "save": "Guardar",
+        "clearResult": "Borrar resultado"
+      },
+      "viewTable": "Tabla",
+      "viewBracket": "Cuadro",
+      "bracket": {
+        "wb": "Cuadro de ganadores",
+        "lb": "Cuadro de perdedores",
+        "gf": "Gran final",
+        "gfReset": "Revancha de la gran final",
+        "tbd": "Por determinar"
+      }
+    },
+    "rankings": {
+      "title": "Clasificación",
+      "empty": "Aún no hay resultados",
+      "emptyHint": "La clasificación aparecerá tras registrar los resultados de la primera ronda",
+      "col": {
+        "rank": "#",
+        "name": "Nombre",
+        "score": "Puntos",
+        "win": "V",
+        "draw": "T",
+        "loss": "D"
+      },
+      "champion": "Campeón",
+      "runnerUp": "Subcampeón",
+      "thirdPlace": "3.er lugar"
+    }
+  },
+  "toast": {
+    "saved": "Guardado correctamente",
+    "saveFailed": "Error al guardar, inténtalo de nuevo",
+    "createSuccess": "Torneo creado",
+    "createFailed": "Error al crear, inténtalo de nuevo",
+    "deleteSuccess": "Torneo eliminado",
+    "deleteFailed": "Error al eliminar, inténtalo de nuevo",
+    "resetSuccess": "Torneo restablecido",
+    "backupSuccess": "Copia de seguridad guardada",
+    "backupFailed": "Error al hacer la copia de seguridad, inténtalo de nuevo",
+    "restoreSuccess": "Torneo restaurado",
+    "restoreFailed": "Error al restaurar, comprueba el formato del archivo",
+    "loadFailed": "Error al cargar los datos del torneo. El archivo puede faltar o estar dañado."
+  },
+  "print": {
+    "playerList": "Lista de jugadores",
+    "rankings": "Clasificación",
+    "crossTable": "Tabla cruzada",
+    "playerCard": "Ficha del jugador",
+    "round": "Ronda",
+    "color": "Color",
+    "opponent": "Rival",
+    "opponentRating": "Rating rival",
+    "cumulative": "Acumulado",
+    "printPlayerList": "Imprimir lista",
+    "printRankings": "Imprimir clasificación",
+    "printCrossTable": "Imprimir tabla cruzada",
+    "printPlayerCard": "Imprimir ficha",
+    "printRound": "Imprimir emparejamientos",
+    "pairingSheet": "Hoja de emparejamientos",
+    "prevScore": "Puntos anteriores",
+    "seedLabel": "N.º",
+    "printBtn": "Imprimir",
+    "closePreview": "Cerrar vista previa",
+    "exportPlayerList": "Exportar lista",
+    "exportRankings": "Exportar clasificación",
+    "exportCrossTable": "Exportar tabla cruzada",
+    "exportRound": "Exportar emparejamientos",
+    "exportSuccess": "Exportado correctamente",
+    "exportTRF": "Exportar TRF"
+  },
+  "settings": {
+    "tabs": {
+      "basicInfo": "Información básica",
+      "formatSelect": "Formato",
+      "formatParams": "Parámetros"
+    },
+    "placeholder": {
+      "venue": "ej. Polideportivo Municipal",
+      "organizer": "ej. Federación de Ajedrez de la Ciudad",
+      "chiefReferee": "ej. Juan García",
+      "totalRounds": "Automático"
+    },
+    "formatLocked": "El torneo ya ha comenzado. Para cambiar el formato, restablece el torneo primero.",
+    "formatProcess": {
+      "swiss": "Cada ronda enfrenta a jugadores con puntuaciones similares. Sin repetición de rivales. Clasificación final por puntuación total.",
+      "round_robin": "Cada jugador se enfrenta una vez a todos los demás. Clasificación final por puntuación total.",
+      "double_round_robin": "Cada jugador se enfrenta dos veces a todos los demás (una con cada color). Clasificación final por puntuación total.",
+      "elimination": "Los perdedores quedan eliminados en cada ronda. Los ganadores avanzan hasta decidir un campeón.",
+      "double_elimination": "Cuadro de ganadores y perdedores. La primera derrota te envía al cuadro de perdedores; la segunda te elimina."
+    },
+    "formatScenario": {
+      "swiss": "Ideal para grupos grandes con rondas limitadas",
+      "round_robin": "Ideal para grupos pequeños donde la equidad es prioritaria",
+      "double_round_robin": "Ideal para grupos pequeños que necesitan equilibrio de colores en ajedrez",
+      "elimination": "Ideal para resultados rápidos y espectáculo",
+      "double_elimination": "Ideal cuando los jugadores merecen una segunda oportunidad"
+    },
+    "processLabel": "Cómo funciona",
+    "scenarioLabel": "Ideal para",
+    "totalRounds": "Total de rondas",
+    "totalRoundsAuto": "Deja vacío para calcular automáticamente según el número de jugadores (⌈log₂(n)⌉), o establece manualmente",
+    "totalRoundsFormula": "El cálculo automático usa ⌈log₂(n)⌉ — el mismo número de rondas que un torneo de eliminación, garantizando un líder único. Jugadores vs. rondas:",
+    "totalRoundsAutoElim": "Calculado automáticamente según el tamaño del cuadro",
+    "colorBalance": "Equilibrio de colores",
+    "colorBalanceDesc": "Equilibra las asignaciones de blancas/negras para cada jugador. Recomendado para ajedrez.",
+    "bronzeMatch": "Partido por el tercer puesto",
+    "bronzeMatchDesc": "Añade un partido entre los dos perdedores de semifinales para determinar el 3.er y 4.º puesto.",
+    "bracketReset": "Revancha de la gran final",
+    "bracketResetDesc": "Si el campeón del cuadro de perdedores gana el juego 1, se juega un juego decisivo 2 (ya que el campeón del cuadro de ganadores tiene 0 derrotas).",
+    "allowDraw": "Permitir tablas",
+    "allowDrawDesc": "Cuando está desactivado, todas las partidas deben tener un resultado decisivo. Adecuado para Go (con komi), torneos de eliminación, etc.",
+    "scoring": "Reglas de puntuación",
+    "scoreWin": "Victoria",
+    "scoreDraw": "Tablas",
+    "scoreLoss": "Derrota",
+    "tiebreakers": "Criterios de desempate",
+    "tiebreakersDesc": "Cuando hay empate en puntuación, se aplican estos criterios en orden de prioridad.",
+    "tbAdd": "Añadir criterio",
+    "tbEmpty": "No hay criterios de desempate configurados",
+    "tbCalcLabel": "Cómo funciona",
+    "tbMeaningLabel": "Por qué usarlo",
+    "tb": {
+      "bhc1": "Buchholz Corte-1 (BH-C1)",
+      "bh": "Buchholz (BH)",
+      "bhc2": "Buchholz Corte-2 (BH-C2)",
+      "bhm1": "Buchholz Mediana (BH-M1)",
+      "de": "Encuentro directo",
+      "sb": "Sonneborn-Berger (SB)",
+      "progressive": "Puntuación progresiva",
+      "wins": "Número de victorias",
+      "koya": "Sistema Koya",
+      "black": "Número de partidas con negras"
+    },
+    "tbDesc": {
+      "bhc1": "Suma de las puntuaciones de todos los rivales, descartando la más baja",
+      "bh": "Suma de las puntuaciones de todos los rivales — rivales más fuertes implican un valor más alto",
+      "bhc2": "Suma de las puntuaciones de todos los rivales, descartando las dos más bajas",
+      "bhm1": "Suma de las puntuaciones de todos los rivales, descartando la más alta y la más baja",
+      "de": "Resultado del enfrentamiento directo entre jugadores empatados",
+      "sb": "Crédito completo por victorias, medio por tablas, ninguno por derrotas — ponderado por la fortaleza del rival",
+      "progressive": "Total acumulado de puntuaciones tras cada ronda — las victorias tempranas cuentan más",
+      "wins": "Número total de partidas ganadas (las tablas no cuentan)",
+      "koya": "Puntuación frente a rivales que lograron el 50% o más de los puntos máximos — para todos contra todos",
+      "black": "Total de partidas jugadas con negras (segundo jugador) — más es mejor"
+    },
+    "tbMeaning": {
+      "bhc1": "Rivales más fuertes implican resultados de mayor calidad; descartar el más bajo elimina la suerte de la primera ronda",
+      "bh": "Complementa el Corte-1 con una imagen completa de la fortaleza de los rivales",
+      "bhc2": "Mejor para torneos grandes — descartar dos extremos da resultados más estables",
+      "bhm1": "Elimina los valores más extremos para un punto medio más justo",
+      "de": "Cuando los jugadores empatados se enfrentaron entre sí, el ganador merece la posición más alta",
+      "sb": "Distingue vencer a rivales fuertes de vencer a rivales débiles — mide la calidad de las victorias",
+      "progressive": "Premia a los jugadores que rindieron consistentemente bien desde el inicio",
+      "wins": "Con puntuaciones iguales, más victorias decisivas demuestran un estilo de juego más agresivo",
+      "koya": "Solo cuenta resultados frente a rivales fuertes — ideal para evaluar torneos todos contra todos",
+      "black": "Jugar con negras (segundo) es una desventaja natural — más partidas con negras merecen compensación"
+    },
+    "avoidances": "Reglas de exclusión",
+    "avoidancesDesc": "Especifica pares de jugadores que no deben enfrentarse entre sí durante el emparejamiento.",
+    "avoidanceAdd": "Añadir regla",
+    "avoidanceEmpty": "No hay reglas de exclusión configuradas",
+    "avoidancePlayerA": "Jugador A",
+    "avoidancePlayerB": "Jugador B",
+    "avoidanceDuplicate": "Esta regla de exclusión ya existe"
+  },
+  "help": {
+    "title": "Ayuda y documentación",
+    "intro": {
+      "title": "Acerca de SaiPair",
+      "desc": "SaiPair es un software de gestión de torneos gratuito, de escritorio y con funcionamiento sin conexión. Ayuda a los organizadores con el emparejamiento de jugadores, la programación de rondas, el registro de resultados y el cálculo de clasificaciones.",
+      "features": "Formatos compatibles: Suizo, Todos contra todos, Doble todos contra todos, Eliminación directa, Doble eliminación. Funciones: reglas de puntuación flexibles, múltiples criterios de desempate, importación y exportación en Excel/CSV, soporte de impresión y más."
+    },
+    "quickStart": {
+      "title": "Inicio rápido",
+      "step1": "Crea un torneo — haz clic en \"Crear nuevo torneo\" en la página de inicio e introduce un nombre para empezar. El formato predeterminado es Suizo; toda la configuración se puede cambiar más adelante.",
+      "step2": "Añade jugadores — ve a la pestaña Jugadores para añadirlos uno a uno, o importa desde un archivo Excel/CSV en bloque.",
+      "step3": "Genera emparejamientos — ve a la pestaña Rondas, haz clic en \"Iniciar emparejamiento\" para generar la primera ronda. El sistema empareja a los jugadores automáticamente según el formato seleccionado.",
+      "step4": "Registra resultados — haz clic en cada fila de emparejamiento para introducir el resultado. Una vez registrados todos los resultados, podrás generar la siguiente ronda.",
+      "step5": "Consulta la clasificación — ve a la pestaña Clasificación. Se actualiza en tiempo real según las puntuaciones y los criterios de desempate. También puedes imprimir o exportar los resultados."
+    },
+    "settings": {
+      "title": "Configuración del torneo",
+      "format": "Formato: elige entre Suizo, Todos contra todos, Doble todos contra todos, Eliminación directa o Doble eliminación. Una vez generada la primera ronda, el formato queda bloqueado. Para cambiarlo, restablece el torneo primero.",
+      "scoring": "Puntuación: configura los puntos por victoria, tablas y derrota. El valor predeterminado es 2-1-0 (almacenado internamente como enteros, mostrado dividido entre 2).",
+      "tiebreakers": "Criterios de desempate: cuando los jugadores tienen la misma puntuación, se aplican los criterios de desempate en orden de prioridad. Compatibles: Buchholz (BH, BH-C1, BH-C2, BH-M1), Sonneborn-Berger, Puntuación progresiva, Encuentro directo, Número de victorias, Sistema Koya, Número de partidas con negras."
+    },
+    "players": {
+      "title": "Gestión de jugadores",
+      "desc": "Añade jugadores manualmente o importa desde Excel/CSV. Cada jugador tiene los campos: nombre (obligatorio), rating, organización, género, fecha de nacimiento, título, teléfono y notas. Una vez iniciado el torneo (primera ronda generada), no puedes añadir ni eliminar jugadores — usa la función Retirar en su lugar. Los jugadores retirados quedan excluidos de los emparejamientos futuros, pero sus resultados pasados se conservan."
+    },
+    "rounds": {
+      "title": "Rondas y emparejamientos",
+      "desc": "Haz clic en \"Iniciar emparejamiento\" o \"Generar siguiente ronda\" para crear los emparejamientos. El sistema los genera automáticamente según las reglas del formato. Haz clic en una fila de emparejamiento para registrar el resultado (victoria/tablas/derrota/abandono). Puedes deshacer los emparejamientos de la ronda actual, borrar resultados o deshacer todas las rondas. Para los formatos de eliminación, hay disponible una vista de cuadro."
+    },
+    "rankings": {
+      "title": "Clasificación y exportación",
+      "desc": "La clasificación se calcula en tiempo real a partir de las puntuaciones y los criterios de desempate — no se requiere ninguna acción manual. Puedes imprimir listas de jugadores, tablas de clasificación, tablas cruzadas, fichas individuales de registro y hojas de emparejamientos. También se admite la exportación a Excel. Para torneos suizos, se puede exportar en formato TRF para interoperabilidad con otros sistemas."
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "q1": "¿Puedo cambiar el formato una vez iniciado el torneo?",
+      "a1": "No. Una vez generada la primera ronda, el formato queda bloqueado. Puedes restablecer el torneo (borra todas las rondas, conserva los jugadores) para desbloquear la selección de formato.",
+      "q2": "¿Qué ocurre cuando un jugador se retira?",
+      "a2": "Los jugadores retirados quedan excluidos de los emparejamientos futuros. Sus resultados anteriores permanecen en los registros. Los rivales que jugaron contra un jugador retirado conservan sus resultados. Puedes restaurar a un jugador retirado en cualquier momento.",
+      "q3": "¿Cómo se calcula la clasificación?",
+      "a3": "La clasificación principal es por puntuación total. Cuando hay empate en puntuación, se aplican los criterios de desempate en el orden que hayas configurado. Puedes añadir, eliminar o reordenar los criterios de desempate en la configuración del torneo.",
+      "q4": "¿Dónde se almacenan mis datos?",
+      "a4": "Todos los datos se almacenan localmente en tu ordenador como archivos JSON. Puedes hacer una copia de seguridad de un torneo en un archivo .saipair y restaurarlo en otro ordenador. No se requiere conexión a Internet."
+    },
+    "about": {
+      "title": "Acerca de",
+      "version": "SaiPair — Software de gestión de torneos gratuito y con funcionamiento sin conexión.",
+      "website": "Sitio web: saipair.com",
+      "feedback": "Comentarios y soporte: visita saipair.com para obtener información de contacto y reportar problemas."
+    }
+  },
+  "error": {
+    "title": "Algo salió mal",
+    "unknown": "Error desconocido",
+    "reload": "Recargar"
+  }
+}

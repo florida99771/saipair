@@ -1,0 +1,42 @@
+{
+  "name": "saipair-desktop",
+  "version": "0.1.0",
+  "description": "SaiPair - Tournament pairing and management desktop application",
+  "main": "dist-electron/main.js",
+  "homepage": "https://saipair.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/florida99771/saipair.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dist": "vite build && electron-builder",
+    "dist:dir": "vite build && electron-builder --dir"
+  },
+  "keywords": ["tournament", "pairing", "swiss", "elimination", "chess", "electron"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.8",
+    "@mui/material": "^7.3.8",
+    "i18next": "^25.8.10",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-i18next": "^16.5.4",
+    "react-router": "^7.13.0",
+    "react-toastify": "^11.0.5",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "electron": "^40.4.1",
+    "electron-builder": "^26.8.1",
+    "vite": "^7.3.1",
+    "vite-plugin-electron": "^0.29.0",
+    "vite-plugin-electron-renderer": "^0.14.6"
+  }
+}
